@@ -26,7 +26,7 @@ Liste des patterns que j'ai implémenté :
   - [X] [Iterator](#iterator)
   - [X] [Mediator](#mediator)
 
-<img src="images/exemple_execution.png">  
+<img src="Images/exemple_execution.png">  
 
 
 
@@ -47,10 +47,10 @@ Pour cela, nous utilisons une interface qui va contenir des signatures de métho
 
 #### Version générique
 Dans cette version générique du pattern, les structures sont affichées de façon plus générique
-<img src="images/abstract_factory2.png" height="500">
+<img src="Images/abstract_factory2.png" height="500">
 
 #### Version concrète
-<img src="images/abstract_factory.png" height="500">
+<img src="Images/abstract_factory.png" height="500">
 
 
 
@@ -72,10 +72,10 @@ Ce pattern est utilisé pour séparer l'implémentation d'un cas spécifique de 
 Un client (utilisateur physique ou logiciel) a besoin de **construire** des objets complexes sans connaître son implémentation ou a besoin de construire des objets complexes ayant plusieurs implémentations.  
 
 #### Version générique
-<img src="images/pattern_builder.png" height="500">
+<img src="Images/pattern_builder.png" height="500">
 
 #### Version concrète
-<img src="images/pattern_builder_2.png" height="500">
+<img src="Images/pattern_builder_2.png" height="500">
   
 
 ### Factory method
@@ -83,10 +83,10 @@ Un client (utilisateur physique ou logiciel) a besoin de **construire** des obje
 Le principe du design pattern `Factory` est de généraliser la construction
 
 #### Version générique
-<img src="images/factory_method_2.png" height="500">
+<img src="Images/factory_method_2.png" height="500">
 
 #### Version concrète
-<img src="images/factory_method.png" height="500">  
+<img src="Images/factory_method.png" height="500">  
 
 ### Singleton
 
@@ -98,10 +98,10 @@ Pour les patrons de type `Factory`, les développeurs s'arrangent pour que cela 
 Le patron `Abstract Factory` est également susceptible d'utiliser ce type d'instance. 
 
 #### Version générique
-<img src="images/singleton.png">
+<img src="Images/singleton.png">
 
 #### Version concrète
-<img src="images/singleton_2.png">
+<img src="Images/singleton_2.png">
 Notre application va utiliser la classe liasse vierge (LiasseVierge) qui ne possédera qu'une seule instance.
 
 Chaque classe qui utilise la liasse vierge doit avoir accès à la même instance.  
@@ -114,7 +114,7 @@ On également faire en sorte qu'on ne puisse pas créer de nouvelles instances (
 
 Le pattern prototype permet la création d'objets à partir d'autres objets appelés "prototypes" disposant d'une méthode `Clone()` qui retourne un objet identique.  
 
-<img src="images/prototype.png" height="500">
+<img src="Images/prototype.png" height="500">
 
 Exemple du design pattern `Prototype`:
 ```csharp
@@ -155,10 +155,10 @@ Ces patterns mettent en avant les interfaces.
 ----------
 **Exercice: Différence entre Composition et Héritage** 
 **Composition**: C'est le fait d'avoir une instance d'une classe dans une autre classe  
-<img src="images/composition.png">
+<img src="Images/composition.png">
 
 **Héritage**: Une classe fille hérite des propriétés et des méthodes de la classe parente  
-<img src="images/heritage.png">
+<img src="Images/heritage.png">
 
 Source: [Composition vs Héritage](https://itexpert.fr/blog/concepts-fondamentaux-poo/#composition)  
 
@@ -170,11 +170,11 @@ Le but du design pattern `Adapter` est de convertir l'interface d'une classe don
 En résumé, `Adapter` permet de donner à une classe existante une nouvelle interface pour répondre aux besoins d'un client. 
 
 #### Version générique
-<img src="images/adapter_2.png" height="500">
+<img src="Images/adapter_2.png" height="500">
 Source: https://refactoring.guru/design-patterns/adapter  
 
 #### Version concrète
-<img src="images/adapter.png">
+<img src="Images/adapter.png">
 
 **Composition**: `protected ComposantPdf outilPdf = new ComposantPdf();`.
 
@@ -185,11 +185,11 @@ Source: https://refactoring.guru/design-patterns/adapter
 Le design pattern `Bridge` est utilisé pour séparer le comportement de l'implémentation de l'interface et de l'implémentation de l'objet.  
 
 #### Version générique
-<img src="images/bridge_2.png" height="500">
-<img src="images/bridge_3.png" height="500">
+<img src="Images/bridge_2.png" height="500">
+<img src="Images/bridge_3.png" height="500">
 
 #### Version concrète
-<img src="images/bridge.png" height="500">
+<img src="Images/bridge.png" height="500">
 
 On s'intéresse au demande d'immatriculation des véhicules.  
 Le formulaire de demande d'immatriculation possède deux implémentations différentes.  
@@ -218,10 +218,10 @@ Ce pattern offre un cadre de conception d'une composition d'objets dont on ne co
 Les "clients" interagissent avec les objets sans connaitre la structure de l'arbre.  
 
 #### Version générique
-<img src="images/composite_generique.png" height="500">
+<img src="Images/composite_generique.png" height="500">
 
 #### Version concrète
-<img src="images/composite.png" height="500">
+<img src="Images/composite.png" height="500">
 
 ### Decorator
 
@@ -230,10 +230,10 @@ Ce pattern permet d'ajouter **DYNAMIQUEMENT** des fonctionnalités **SUPPLEMENTA
 Il s'agit d'une alternative à la création d'une sous-classe qui permettrait d'enrichir l'objet.  
 
 #### Version générique
-<img src="images/decorator_generique.png">
+<img src="Images/decorator_generique.png">
 
 #### Version concrète
-<img src="images/decorator.png">
+<img src="Images/decorator.png">
 
 ## Pattern de comportement
 
@@ -249,29 +249,29 @@ La distribution se fait soit par héritage soit par "délégation".
 
 Le but est de construire une chaine d'objets de manière à ce que si un objet de la chaine ne peut répondre à une enquête, il puisse la passer à un "successeur" et ainsi de suite jusqu'à ce que l'un des objets puissent y répondre.
 
-<img src="images/chainOfResponsability.png">
+<img src="Images/chainOfResponsability.png">
 
 #### Version générique
-<img src="images/chainOfResponsability_generique.png">
+<img src="Images/chainOfResponsability_generique.png">
 
 #### Version concrète
-<img src="images/chainOfResponsability_2.png">
+<img src="Images/chainOfResponsability_2.png">
 
 ### Command
 
 Ce pattern transforme une requête en objet  
 Ceci facilite les opérations relatives à la requête ex: Annulation, queue, suivi, etc...  
 
-<img src="images/command.png" height="500">
-<img src="images/command_2.png" height="500">
+<img src="Images/command.png" height="500">
+<img src="Images/command_2.png" height="500">
 
 ### Iterator
 
 #### Version concrète
-<img src="images/iterator.png">
+<img src="Images/iterator.png">
 
 #### Version générique
-<img src="images/iterator_generique.png">
+<img src="Images/iterator_generique.png">
 
 ### Mediator
 
@@ -281,7 +281,7 @@ Les objets ne sont pas censés se connaître entre eux.
 Il s'occupe de la gestion.  
 
 #### Version concrète
-<img src="images/mediator.png" height="500">
+<img src="Images/mediator.png" height="500">
 
 #### Version générique
-<img src="images/mediator_generique.png" height="500">
+<img src="Images/mediator_generique.png" height="500">
