@@ -1,7 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern", "DesignPattern\DesignPattern.csproj", "{1565F6A5-EABB-43D8-BEBB-86B1552AAF02}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{89999EFB-08B7-4425-9A58-550AA4700A3A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{64B369A0-6596-4194-BF05-6BA4FB4E79DC}"
@@ -12,10 +10,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1565F6A5-EABB-43D8-BEBB-86B1552AAF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1565F6A5-EABB-43D8-BEBB-86B1552AAF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1565F6A5-EABB-43D8-BEBB-86B1552AAF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1565F6A5-EABB-43D8-BEBB-86B1552AAF02}.Release|Any CPU.Build.0 = Release|Any CPU
 		{89999EFB-08B7-4425-9A58-550AA4700A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{89999EFB-08B7-4425-9A58-550AA4700A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89999EFB-08B7-4425-9A58-550AA4700A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
