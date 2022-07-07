@@ -10,7 +10,7 @@ namespace SingletonPattern
 
         private Status _zlabiaPreparationStatus;
 
-        private CreationZlabia()
+        private CreationZlabia()    
         {
             Console.WriteLine("Starting");
             _zlabiaPreparationStatus = Status.InStarting;
