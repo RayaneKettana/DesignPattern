@@ -26,7 +26,6 @@ Liste des patterns que j'ai implémenté :
   - [X] [Iterator](#iterator)
   - [X] [Mediator](#mediator)
 
-<img src="Images/exemple_execution.png">  
 
 
 
