@@ -4,10 +4,9 @@ Desig Pattern C# :rocket:
 Liste des patterns que j'ai implémenté : 
 - Pattern builder
 - Singleton
-- Adapter
-- Bridge
+- Composite
 - Chain of Responsability
-- Command
+- Decorator
 ---------
 ## Table des matières des patrons vues en cours
 - [Pattern de conception](#pattern-de-conception)  
