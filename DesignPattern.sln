@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "Decorat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityPattern", "ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{844B8A0E-0F26-486C-A4DA-CF9EE28156B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{B80E0317-7A3B-4499-A489-4CC51666F25A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{844B8A0E-0F26-486C-A4DA-CF9EE28156B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{844B8A0E-0F26-486C-A4DA-CF9EE28156B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{844B8A0E-0F26-486C-A4DA-CF9EE28156B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B80E0317-7A3B-4499-A489-4CC51666F25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80E0317-7A3B-4499-A489-4CC51666F25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80E0317-7A3B-4499-A489-4CC51666F25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80E0317-7A3B-4499-A489-4CC51666F25A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
