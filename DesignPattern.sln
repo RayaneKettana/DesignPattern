@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "Singlet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{64B369A0-6596-4194-BF05-6BA4FB4E79DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{9CA28519-B17B-4509-B395-72071FB28AD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{64B369A0-6596-4194-BF05-6BA4FB4E79DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64B369A0-6596-4194-BF05-6BA4FB4E79DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64B369A0-6596-4194-BF05-6BA4FB4E79DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CA28519-B17B-4509-B395-72071FB28AD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA28519-B17B-4509-B395-72071FB28AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA28519-B17B-4509-B395-72071FB28AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA28519-B17B-4509-B395-72071FB28AD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
